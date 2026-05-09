@@ -8,7 +8,7 @@
 
 ## Ops In LLM
 
-
+Broadly, the Triton ops used in LLMs fall into two categories: **1. Computation ops** and **2. Communication ops**. In a modern Transformer-based LLM, the main computation ops are `attention`, `projection (GEMM)`, and `activation`, with variations across architectures — for example, `MLA (Multi-head Latent Attention)` and `GQA (Grouped Query Attention)` are both attention variants. Communication ops, on the other hand, are used in distributed training and inference, such as `AllReduce` for gradient synchronization, `Broadcast`, `AllGather`, and so on.
 
 
 ## Ops Implementation
