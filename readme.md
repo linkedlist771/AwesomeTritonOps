@@ -16,6 +16,34 @@ Broadly, the Triton ops used in LLMs fall into two categories: **1. Computation 
 
 ### Attention
 
+**Architectural variants**
+
+1. Multi-Head Attention (MHA)
+
+2. Multi-Query Attention (MQA)
+
+3. Grouped-Query Attention (GQA)
+
+4. Multi-head Latent Attention (MLA)
+
+5. Sliding Window Attention (SWA)
+
+6. Native Sparse Attention (NSA)
+
+7. Hybrid Attention — CSA + HCA (DeepSeek-V4)
+
+8. Linear Attention
+
+9. Cross Attention
+
+**Kernel variants**
+
+1. FlashAttention (v1 / v2 / v3)
+2. PagedAttention
+3. Radix Attention
+4. Ring Attention
+5. Chunked Prefill attention
+
 
 ### Gemm
 
